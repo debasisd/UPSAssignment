@@ -15,7 +15,7 @@ namespace UseMVCApplication
         {
             try
             {
-                int i = 1;
+               
                 UsersView view = new UsersView();
                 view.Visible = false;
 
