@@ -7,7 +7,7 @@ namespace LogManager
     {
         private static readonly ILogger _logger = NLog.LogManager.GetCurrentClassLogger();
 
-
+//Added comment to the logger 
         public void LogException(Exception ex)
         {
             _logger.Fatal(ex);
